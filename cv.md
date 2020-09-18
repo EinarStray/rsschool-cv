@@ -5,7 +5,7 @@ Pavel Piatrou
 Minsk                     
 Belarus          
 skemans@gmail.com
-
++375-33-307-54-49
 ------------------- 
 
 Education
