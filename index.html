@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style>
+	
+	.box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+			}
+
+	#image {
+	   float: left; 
+	 }
+	 
+	.text {
+	    margin-left: 150px;
+		font-size: 18px;
+	 }
+	 
+	.block1 {
+		width: 600px;
+		height: 130px;
+		background: #C0C0C0;
+		padding: 5px;
+		padding-right: 20px;
+		float: bottom;
+	 }
+	 
+	.parent {
+		position: relative;
+	 }
+		
+	.child1 {
+		position: absolute;
+		top: -200;
+		left: 0;
+		}
+	
+	.child2  {
+		position: absolute;
+		top: -200;
+		right: 0;
+		}
+		
+    .block2 {
+	width: 290px;
+	height: 18px;
+	border: 3px;
+	background: #2E8B57;
+		}
+  
+    .center {
+	text-align:center;
+	font-size: 14px;
+	font-family: d_Kallisto, Lucida Bright, serif;
+	}
+	
+	 .block3 {
+	position: absolute;
+	top: 167px;
+	width: 290px;
+	height: 18px;
+	border: 3px;
+	background: #2E8B57;
+		}
+  
+    .center3 {
+	text-align:center;
+	font-size: 14px;
+	font-family: d_Kallisto, Lucida Bright, serif;
+	}
+	
+    .line-height {
+	line-height: 1.5;
+	}
+	
+	.line-height3 {
+	position: absolute;
+	top: 188px;
+	}
+	
+	.line-height4 {
+	position: absolute;
+	top: -17px;
+	right: 65px;
+	}
+	
+	.line-height5 {
+	position: absolute;
+	top: 0px;
+	right: 105px;
+	line-height: 1.5;
+	}
+	
+	#footer {
+	position: relative;
+	top: 350px;
+	right: 5px;
+	width: 600px;
+		height: 60px;
+		background: #C0C0C0;
+		padding: 5px;
+		padding-right: 20px;
+	 }
+	
+	
+	</style>
+	<title>CV</title>
+</head>
+<body>
+<div class="box">
+	<div class="block1 parent">
+		<div id="image">
+			<img src="koala.jpg" alt="avatar" align="left" width="110" height="128"/>
+		</div>
+		<div class="text">
+			<p><h4><strong>Pavel Piatrou</strong></h4></p>
+		</div>
+		<div class="text">
+			<p><h3>junior frontend developer</h3></i><p>
+			<p><i><small>Minsk, Belarus</small></i></p>
+		</div>
+	<div class="child1" >
+		<div class="block2 center">
+			<p><h4> About me</h4></p>
+		</div>
+		<div class="line-height">
+			<ul>
+				<li>Advanced of C#</li>
+				<li>Basics of Javascript</li>
+				<li>Selenium</li>
+				<li>Git</li>
+			</ul>
+		</div>
+
+		<div class="block3 center3">
+			<p><h4 class="line-height4"> Technical Experience</h4></p>
+		</div>
+		<div class="line-height line-height3">
+			<ul>
+				<li>Like to work in team</li>
+				<li>Like to learn new things</li>
+			</ul>
+		</div>
+	</div>
+	<div class="child2">
+		<div class="block2 center">
+			<p><h4> Education</h4></p>
+		</div>
+		<div class="line-height">
+			<ul>
+				<li>BSUIR, ITS(<i><small>2018-2023</small></i>)-<br><i><strong>Software Engineer</i></strong></li>
+				<li>IT Academy (<i><small>2018-2018</small></i>)-<br><i><strong>QA Engineer</i></strong></li>
+			</ul>
+		</div>
+		<div class="block2">
+			<div class="center">
+				<p><strong>Work experience</strong></p>
+			</div>
+			<div class="line-height">
+				<ul>
+					<li>2018 - present: <i><strong>ModernSoft</i></strong><br><i>Automation QA Engineer</i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="block2 center">
+			<p><h4> Contact me</h4></p>
+		</div>
+		<div class="line-height5">
+			<ul>
+				<li><i><strong>+ 375 33 307 54 49</strong></i></li>
+				<li>skemans@gmail.com</li>
+			</ul>
+		</div>
+	</footer>
+	</div>
+</div>
+</body>
+</html>
